@@ -1,13 +1,5 @@
 // src/apps/struktur/strukturData.ts
 export const strukturData = {
-  hero: {
-    title: "Struktur Organisasi",
-    description: `INAmikro (PT. Mikrobisnis Digital Sejahtera) telah melayani dan memberi dampak kepada pelaku UMKM di Indonesia sejak 2017.
-Mari kita bersama-sama dukung dan majukan UMKM Indonesia menuju Indonesia Emas 2045.`,
-    image: "/about/debbie.png",
-    name: "Debbie R. Sianturi",
-    position: "Founder & CEO",
-  },
   orgChart: [
     { name: "Debbie R. Sianturi", role: "CEO / Co-Founder", parent: null },
     { name: "Daniel Setiawan", role: "CTO", parent: "Debbie R. Sianturi" },
@@ -17,72 +9,72 @@ Mari kita bersama-sama dukung dan majukan UMKM Indonesia menuju Indonesia Emas 2
     { name: "Sekararum Widyan P", role: "Admin HR & Legal", parent: "Yudha Mei L." },
     { name: "Rachel Sianipar", role: "Staff Admin & Social Media", parent: "Yudha Mei L." },
     { name: "Maulid Nahar", role: "Staff Admin", parent: "Yudha Mei L." },
-    { name: "Fadli Harahap", role: "IT Development & AI", parent: "Daniel Setiawan" },
-    { name: "Gabriel Alvito", role: "IT Development & AI", parent: "Daniel Setiawan" },
-    { name: "Ragil", role: "Server", parent: "Daniel Setiawan" },
-    { name: "Abdur", role: "Front-End", parent: "Daniel Setiawan" },
-    { name: "Doni", role: "Back-End", parent: "Daniel Setiawan" },
+    { name: "Fadli Harahap", role: "IT Development & AI", parent: "Debbie R. Sianturi" },
+    { name: "Gabriel Alvito", role: "IT Development & AI", parent: "Debbie R. Sianturi" },
+    { name: "Ragil", role: "Server", parent: "Fadli Harahap" },
+    { name: "Abdur", role: "Front-End", parent: "Fadli Harahap" },
+    { name: "Doni", role: "Back-End", parent: "Fadli Harahap" },
   ],
   teamMembers: [
     {
       name: "Daniel Setiawan",
       position: "Chief Technology Officer",
-      image: "/about/team1.png",
+      image: "/structur/team1.jpg",
     },
     {
       name: "Joshua E. Sianturi",
       position: "Komisaris",
-      image: "/about/team2.png",
+      image: "/structur/team2.jpg",
     },
     {
       name: "Yudha Mei L.",
       position: "Chief Operating Officer",
-      image: "/about/team3.png",
+      image: "/structur/team3.jpg",
     },
     {
       name: "Sekararum Widyan P",
       position: "Staff Admin, HR & Legal",
-      image: "/about/team4.png",
+      image: "/structur/team4.jpg",
     },
     {
       name: "Dita Lestari",
       position: "Finance & Perpajakan",
-      image: "/about/team5.png",
+      image: "/structur/team5.jpg",
     },
     {
       name: "Rachel Sianipar",
       position: "Staff Admin & Social Media",
-      image: "/about/team6.png",
+      image: "/structur/team6.jpg",
     },
     {
       name: "Maulid Nahar",
       position: "Staff Admin",
-      image: "/about/team7.png",
+      image: "/structur/team7.jpg",
     },
     {
       name: "Fadli Harahap",
       position: "IT Development & AI",
-      image: "/about/team8.png",
+      image: "/structur/team8.jpg",
     },
     {
       name: "Gabriel Alvito",
       position: "IT Development & AI",
-      image: "/about/team9.png",
+      image: "/structur/team9.jpg",
     },
     {
       name: "Ragil",
       position: "Server",
-      image: "/about/team10.png",
+      image: "/structur/team10.jpg",
     },
     {
       name: "Abdur",
       position: "Front-End",
-      image: "/about/team11.png",
+      image: "/structur/team11.jpg",
     },
     {
       name: "Doni",
       position: "Back-End",
-      image: "/about/team12.png",
+      image: "/structur/team12.jpg",
     },
   ],
 };

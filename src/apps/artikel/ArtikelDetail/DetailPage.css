@@ -1,0 +1,31 @@
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #fff9f9, #fff);
+  min-height: 100vh;
+  padding-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tombol Kembali */
+.detail-nav {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #e63946;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+  color: #c92f3b;
+  text-decoration: underline;
+}

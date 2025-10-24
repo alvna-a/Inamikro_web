@@ -1,0 +1,204 @@
+/* ================================
+   GLOBAL WRAPPER
+================================ */
+.artikel-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ================================
+   HERO SECTION
+================================ */
+.hero-frame {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 3rem;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.hero-frame .hero-text {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-frame h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-frame p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ================================
+   CARD ARTIKEL
+================================ */
+.card-artikel {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card-artikel:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.thumb-wrap {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.thumb-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+   CARD TITLE HOVER EFFECT
+================================ */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.card-title:hover {
+  color: #e63946;
+  border-bottom: 2px solid #e63946;
+}
+
+
+.card-excerpt {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.card-meta a {
+  color: #e63946;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card-meta a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   LIST GRID
+================================ */
+.list-frame {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* ================================
+   PAGINATION
+================================ */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 2rem;
+  gap: 0.6rem;
+}
+
+.pagination button {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 0.6rem 1rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination button:hover {
+  background: #e63946;
+  color: #fff;
+  border-color: #e63946;
+}
+
+.pagination button.active {
+  background: #e63946;
+  color: #fff;
+  font-weight: bold;
+  border-color: #e63946;
+}
+
+/* ================================
+   READ MORE BUTTON STYLE
+================================ */
+.read-more {
+  border: 2px solid #e63946;
+  background-color: transparent;
+  color: #e63946;
+  padding: 0.5rem 1.2rem;
+  border-radius: 9999px; /* <— super rounded button style */
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #e63946;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+}
+

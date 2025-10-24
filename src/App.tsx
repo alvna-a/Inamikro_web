@@ -1,11 +1,8 @@
-import AboutPage from "./apps/about/about";
+import React from "react";
+import Artikel from "./apps/artikel/artikel";
 
-function App() {
-  return (
-    <>
-      <AboutPage />
-    </>
-  );
-}
+const App: React.FC = () => {
+  return <Artikel />;
+};
 
 export default App;
