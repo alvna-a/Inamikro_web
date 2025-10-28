@@ -1,8 +1,12 @@
 import React from "react";
-import Artikel from "./apps/artikel/artikel";
+import KemitraanPage from "./apps/kemitraan/kemitraan";
 
-const App: React.FC = () => {
-  return <Artikel />;
-};
+function App() {
+  return (
+    <>
+      <KemitraanPage />
+    </>
+  );
+}
 
 export default App;

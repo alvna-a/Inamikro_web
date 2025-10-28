@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Instansi Pemerintah",
+    "icon": "Building2",
+    "image": "/kemitraan/instansi_pemerintah.png"
+  },
+  {
+    "title": "Pemerintah Daerah",
+    "icon": "Landmark",
+    "image": "/kemitraan/pemda.png"
+  },
+  {
+    "title": "Organisasi / Asosiasi",
+    "icon": "Network",
+    "image": "/kemitraan/organisasi.png"
+  },
+  {
+    "title": "Instansi Swasta",
+    "icon": "Building",
+    "image": "/kemitraan/swasta.png"
+  },
+  {
+    "title": "Bank BUMN",
+    "icon": "Banknote",
+    "image": "/kemitraan/bankbumn.png"
+  },
+  {
+    "title": "Lembaga Pendidikan",
+    "icon": "GraduationCap",
+    "image": "/kemitraan/pendidikan.png"
+  },
+  {
+    "title": "Media Partner",
+    "icon": "Link",
+    "image": "/kemitraan/medpart.png"
+  }
+]
